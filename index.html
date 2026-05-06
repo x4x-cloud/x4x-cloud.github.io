@@ -1346,7 +1346,17 @@ function sendWA() {
 
   // Facebook Pixel Lead tracking
   if (typeof fbq !== 'undefined') {
-    fbq('track', 'Lead', {
+    fbq('track', 'Lead', {}, {
+  eventID: 'lead_' + Date.now()
+});
+
+fetch("https://script.google.com/macros/s/AKfycbx2kmDPxkGKds2lZtjabJ6GLuf84OzXKMvmvarr8HY2qZnsl2iU97q3Ud62i0Ch6jMF/exec", {
+  method: "POST",
+  body: JSON.stringify({
+    event_name: "Lead",
+    event_id: "lead_" + Date.now()
+  })
+});
       content_name: 'WhatsApp Reservation',
       num_people: guests,
       preferred_time: time
