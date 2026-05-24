@@ -95,7 +95,7 @@ html[lang="ar"] .ar{display:block;}
 .divider-ornament::after{background:linear-gradient(90deg,var(--gold),transparent);}
 .ornament-diamond{width:8px;height:8px;background:var(--gold);transform:rotate(45deg);flex-shrink:0;}
 
-/* ── PRICING TABLE ───────────────────────────────── */
+/* PRICING TABLE */
 .pricing-section{padding:0 24px 70px;max-width:900px;margin:0 auto;}
 .pricing-eyebrow{text-align:center;font-size:10px;letter-spacing:5px;color:var(--gold);text-transform:uppercase;font-weight:300;margin-bottom:28px;opacity:.8;}
 .pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
@@ -116,7 +116,7 @@ html[lang="ar"] .ar{display:block;}
 .price-card-free{font-family:'Playfair Display',serif;font-size:38px;font-weight:900;color:#4CAF82;filter:drop-shadow(0 0 10px rgba(76,175,130,.3));}
 .price-card-note{font-size:11px;color:var(--muted);margin-top:8px;letter-spacing:.5px;}
 
-/* ── MENU ────────────────────────────────────────── */
+/* MENU */
 .menu-section{padding:80px 24px;max-width:960px;margin:0 auto;}
 .section-header{text-align:center;margin-bottom:56px;}
 .section-eyebrow{font-size:10px;letter-spacing:6px;color:var(--gold);text-transform:uppercase;font-weight:300;margin-bottom:14px;}
@@ -137,27 +137,7 @@ html[lang="ar"] .ar{display:block;}
 .item-bullet{width:5px;height:5px;border:1px solid var(--gold);border-radius:50%;flex-shrink:0;box-shadow:0 0 6px rgba(212,168,67,.4);}
 .item-name{font-size:13px;color:var(--cream2);font-weight:400;line-height:1.3;}
 
-/* ── KHAROUF BANNER ──────────────────────────────── */
-.special-banner{margin:0 auto 64px;max-width:960px;padding:0 24px;}
-.special-inner{position:relative;border-radius:20px;overflow:hidden;border:1px solid rgba(212,168,67,.35);background:var(--black4);}
-.special-inner::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(212,168,67,.14),transparent 60%),radial-gradient(ellipse 40% 40% at 0% 100%,rgba(180,60,30,.08),transparent 50%);}
-.special-top-bar{height:4px;background:linear-gradient(90deg,#8B1A0A,#D4380A,#FF6B35,#FFD97D,#FF6B35,#D4380A,#8B1A0A);animation:fire-shimmer 3s linear infinite;background-size:200% auto;}
-@keyframes fire-shimmer{0%{background-position:0% center;}100%{background-position:200% center;}}
-.special-head{position:relative;z-index:1;text-align:center;padding:32px 24px 20px;}
-.special-badge{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#8B1A0A,#C0391B,#FF6B35);color:#fff;font-size:10px;font-weight:900;letter-spacing:3px;text-transform:uppercase;padding:7px 22px;border-radius:3px;margin-bottom:16px;box-shadow:0 0 20px rgba(255,107,53,.35);}
-.special-title{font-family:'Playfair Display',serif;font-size:clamp(26px,5vw,38px);font-weight:900;color:var(--gold-bright);margin-bottom:6px;filter:drop-shadow(0 0 15px rgba(255,217,125,.35));}
-.special-sub{font-size:13px;color:var(--muted);font-weight:300;letter-spacing:1px;margin-bottom:8px;}
-.special-photos{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;}
-.special-photo-wrap{position:relative;overflow:hidden;aspect-ratio:4/3;}
-.special-photo-wrap img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;}
-.special-photo-wrap:hover img{transform:scale(1.05);}
-.special-photo-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.7),transparent 50%);pointer-events:none;}
-.special-photo-label{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-size:13px;font-weight:700;color:var(--gold-bright);padding:0 12px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.8));}
-.photo-divider{position:absolute;top:0;bottom:0;left:50%;width:1px;background:linear-gradient(to bottom,transparent,var(--gold),transparent);z-index:2;}
-.img-fallback{width:100%;height:100%;background:var(--black3);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--muted);font-size:13px;}
-.img-fallback span:first-child{font-size:36px;}
-
-/* ── CHEF ────────────────────────────────────────── */
+/* CHEF */
 .chef-section{padding:80px 24px;position:relative;z-index:1;}
 .chef-outer{max-width:860px;margin:0 auto;}
 .chef-card{display:grid;grid-template-columns:auto 1fr;gap:52px;align-items:center;background:var(--black3);border-radius:28px;padding:52px;position:relative;overflow:hidden;border:1px solid rgba(212,168,67,.12);box-shadow:0 4px 60px rgba(0,0,0,.5);}
@@ -175,7 +155,7 @@ html[lang="ar"] .ar{display:block;}
 html[lang="de"] .chef-div{background:linear-gradient(90deg,transparent,var(--gold));}
 .chef-desc{font-size:14px;color:var(--muted);line-height:2;}
 
-/* ── BOOKING ─────────────────────────────────────── */
+/* BOOKING */
 .booking-wrap{padding:0 20px 80px;max-width:760px;margin:0 auto;}
 .booking-card{background:var(--black3);border:1px solid rgba(212,168,67,.25);border-radius:16px;padding:48px 36px;position:relative;overflow:hidden;}
 .booking-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--gold-deep),var(--gold),var(--gold-bright),var(--gold),var(--gold-deep),transparent);}
@@ -227,8 +207,6 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
   .pill{font-size:11px;padding:7px 14px;}
   .float-btn{bottom:16px;right:12px;padding:12px 20px;font-size:13px;}
   .lang-toggle{top:12px;left:12px;}
-  .special-photos{grid-template-columns:1fr;}
-  .photo-divider{display:none;}
   .chef-card{grid-template-columns:1fr;padding:32px 22px;gap:28px;text-align:center;}
   .chef-rings{width:150px;height:150px;margin:0 auto;}
   .chef-div{margin:16px auto 20px;}
@@ -249,7 +227,7 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
   <span class="de">📅 Jetzt Reservieren</span>
 </button>
 
-<!-- ══════════ HERO ══════════ -->
+<!-- HERO -->
 <section class="hero">
   <div class="top-bar"></div>
   <div class="stars" id="stars"></div>
@@ -298,7 +276,7 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
   </div>
 </section>
 
-<!-- ══════════ PRICING TABLE ══════════ -->
+<!-- PRICING TABLE -->
 <div class="pricing-section">
   <p class="pricing-eyebrow ar">أسعار الدخول للبوفيه</p>
   <p class="pricing-eyebrow de">Buffet-Eintrittspreise</p>
@@ -334,8 +312,8 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
     <div class="price-card">
       <span class="price-card-icon">🧑</span>
       <div class="price-card-label ar">فوق ٨ سنوات والبالغون</div>
-      <div class="price-card-label de">Über 8 Jahre & Erwachsene</div>
-      <div class="price-card-sub ar">Ab 8 Jahre & Erwachsene</div>
+      <div class="price-card-label de">Über 8 Jahre &amp; Erwachsene</div>
+      <div class="price-card-sub ar">Ab 8 Jahre &amp; Erwachsene</div>
       <div class="price-card-sub de">فوق ٨ والبالغون</div>
       <div class="price-card-divider"></div>
       <div class="price-card-amount"><sup>€</sup>20</div>
@@ -346,7 +324,7 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
   </div>
 </div>
 
-<!-- ══════════ MENU ══════════ -->
+<!-- MENU -->
 <div class="menu-section">
   <div class="section-header">
     <p class="section-eyebrow ar">القائمة الكاملة</p>
@@ -356,32 +334,35 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
     <div class="divider-ornament"><div class="ornament-diamond"></div></div>
   </div>
 
-  <!-- STARTERS -->
+  <!-- STARTERS + SOUPS -->
   <div class="menu-cat">
     <div class="cat-header">
       <div class="cat-line"></div>
       <div class="cat-title-wrap">
         <span class="cat-icon">🥗</span>
-        <span class="cat-name ar">المقبّلات</span>
-        <span class="cat-name de">Vorspeisen</span>
-        <span class="cat-name-de ar">Vorspeisen</span>
-        <span class="cat-name-de de">مقبّلات</span>
+        <span class="cat-name ar">المقبلات والشوربات</span>
+        <span class="cat-name de">Vorspeisen &amp; Suppen</span>
+        <span class="cat-name-de ar">Vorspeisen &amp; Suppen</span>
+        <span class="cat-name-de de">مقبلات وشوربات</span>
       </div>
       <div class="cat-line r"></div>
     </div>
     <div class="menu-grid">
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">حمص بالطحينة</span><span class="item-name de">Hummus mit Tahini</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">متبل باذنجان</span><span class="item-name de">Mutabbal (Auberginen-Dip)</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">بابا غنوج</span><span class="item-name de">Baba Ganoush</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">محمرة بالجوز</span><span class="item-name de">Muhammara mit Walnüssen</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">فتوش</span><span class="item-name de">Fattoush-Salat</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">بوريك ميكس</span><span class="item-name de">Börek-Mix</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">سلطة شمندر</span><span class="item-name de">Rote-Bete-Salat</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">مني مناقيش مشكلة</span><span class="item-name de">Mini-Manakeesh-Mix</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">قريدس مقرمش</span><span class="item-name de">Knusprige Garnelen</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">مخللات خضار</span><span class="item-name de">Eingelegtes Gemüse</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">يالنجي بالزيت</span><span class="item-name de">Yalanci (vegetarisch)</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">حمص بالطحينة</span><span class="item-name de">Hummus Tahini</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">متبل باذنجان</span><span class="item-name de">Mutabbal Aubergine</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">محمرة بالمكسرات</span><span class="item-name de">Muhammara mit Nüssen</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">بابا غنوج</span><span class="item-name de">Baba Ghanouj</span></div>
       <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">سلطة خيار باللبن</span><span class="item-name de">Gurken-Joghurt-Salat</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">سلطة فتوش</span><span class="item-name de">Fattoush-Salat</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">سلطة شمندر بالجبنة</span><span class="item-name de">Rote-Bete-Salat mit Käse</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">ميكس بوريك</span><span class="item-name de">Börek-Mix</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">ميكس ميني مناقيش</span><span class="item-name de">Mini Manakish Mix</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">خضار مشكل</span><span class="item-name de">Gemischtes Gemüse</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">سمبوسك خضار</span><span class="item-name de">Gemüse-Samosa</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">قريدس مقرمش</span><span class="item-name de">Knuspergarnelen</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">سلطة الكسكسي</span><span class="item-name de">Couscous-Salat</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">شوربة العدس</span><span class="item-name de">Linsensuppe</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">شوربة البطاطا</span><span class="item-name de">Kartoffelsuppe</span></div>
     </div>
   </div>
 
@@ -390,65 +371,28 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
     <div class="cat-header">
       <div class="cat-line"></div>
       <div class="cat-title-wrap">
-        <span class="cat-icon">🍖</span>
-        <span class="cat-name ar">الأكل السخن</span>
-        <span class="cat-name de">Warme Speisen</span>
-        <span class="cat-name-de ar">Warme Speisen</span>
-        <span class="cat-name-de de">أكل سخن</span>
+        <span class="cat-icon">🔥</span>
+        <span class="cat-name ar">الأطباق الساخنة</span>
+        <span class="cat-name de">Warme Hauptgerichte</span>
+        <span class="cat-name-de ar">Warme Hauptgerichte</span>
+        <span class="cat-name-de de">أطباق ساخنة</span>
       </div>
       <div class="cat-line r"></div>
     </div>
     <div class="menu-grid">
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">شوربة فطر</span><span class="item-name de">Champignonsuppe</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">محاشي باذنجان وكوسا</span><span class="item-name de">Gefüllte Auberginen &amp; Zucchini</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">فخاد دجاج بالبطاطا</span><span class="item-name de">Hähnchenschenkel mit Kartoffeln</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">مندي</span><span class="item-name de">Mandi</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">فريكة باللحم</span><span class="item-name de">Freekeh mit Fleisch</span></div>
       <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">كباب هندي</span><span class="item-name de">Indischer Kebab</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">ستيك دجاج ماشروم صوص</span><span class="item-name de">Hähnchensteaks mit Champignon-Soße</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">فريكة بالدجاج</span><span class="item-name de">Freekeh mit Hähnchen</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">مندي باللحم</span><span class="item-name de">Mandi mit Lamm</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">مندي بالدجاج</span><span class="item-name de">Mandi mit Hähnchen</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">أفخاذ دجاج وبطاطا بالفرن</span><span class="item-name de">Hähnchenschenkel mit Ofenkartoffeln</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">ملوخية الدجاج</span><span class="item-name de">Molokhia mit Hähnchen</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">يبرق باللحم</span><span class="item-name de">Yabrak mit Fleisch</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">شيخ المحشي</span><span class="item-name de">Sheikh al-Mahshi</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">شيش طاووق</span><span class="item-name de">Shish Tawook</span></div>
       <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">ناقيتس وبومس</span><span class="item-name de">Nuggets &amp; Pommes</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">ملوخية بالدجاج</span><span class="item-name de">Molokheya mit Hähnchen</span></div>
     </div>
   </div>
-</div>
 
-<!-- ══════════ KHAROUF BANNER ══════════ -->
-<div class="special-banner">
-  <div class="special-inner">
-    <div class="special-top-bar"></div>
-    <div class="special-head">
-      <div class="special-badge ar">🐑 &nbsp; حصري هذا الأسبوع &nbsp; 🐑</div>
-      <div class="special-badge de">🐑 &nbsp; NUR DIESE WOCHE — EXKLUSIV &nbsp; 🐑</div>
-      <h3 class="special-title ar">مناسف الخواريف</h3>
-      <h3 class="special-title de">Lamm-Mansaf</h3>
-      <p class="special-sub ar">طبق استثنائي · خروف كامل بالتتبيلة والمستردة · متاح هذا الأحد فقط</p>
-      <p class="special-sub de">Ein außergewöhnliches Gericht · Ganzes Lamm mariniert mit Senf · Nur diesen Sonntag</p>
-    </div>
-    <div class="special-photos">
-      <div class="special-photo-wrap">
-        <img src="mansaf.jpg" alt="مناسف مندي"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="img-fallback" style="display:none"><span>🍲</span><span>mansaf.jpg</span></div>
-        <div class="special-photo-overlay"></div>
-        <div class="special-photo-label ar">مناسف مندي جاهزة</div>
-        <div class="special-photo-label de">Fertiger Mansaf-Mandi</div>
-      </div>
-      <div class="photo-divider"></div>
-      <div class="special-photo-wrap">
-        <img src="kharouf.jpg" alt="خروف بالتتبيلة"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="img-fallback" style="display:none"><span>🐑</span><span>kharouf.jpg</span></div>
-        <div class="special-photo-overlay"></div>
-        <div class="special-photo-label ar">الخروف بالصينية مع التتبيلة</div>
-        <div class="special-photo-label de">Lamm in der Pfanne mit Marinade</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Desserts -->
-<div class="menu-section" style="padding-top:0">
+  <!-- DESSERTS -->
   <div class="menu-cat">
     <div class="cat-header">
       <div class="cat-line"></div>
@@ -462,13 +406,14 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
       <div class="cat-line r"></div>
     </div>
     <div class="menu-grid">
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">حلو مشكّل</span><span class="item-name de">Gemischte Orientalische Süßspeisen</span></div>
-      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">فواكه مشكّلة</span><span class="item-name de">Gemischte Früchte</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">حلويات مشكلة</span><span class="item-name de">Gemischte Süßigkeiten</span></div>
+      <div class="menu-item"><span class="item-bullet"></span><span class="item-name ar">فواكه مشكلة</span><span class="item-name de">Gemischte Früchte</span></div>
     </div>
   </div>
+
 </div>
 
-<!-- ══════════ CHEF ══════════ -->
+<!-- CHEF -->
 <section class="chef-section" id="chef">
   <div style="text-align:center;font-size:11px;color:var(--gold);opacity:.22;letter-spacing:8px;margin-bottom:16px;">◆ ◆ ◆</div>
   <p style="text-align:center;font-size:9px;letter-spacing:5px;color:var(--gold);text-transform:uppercase;margin-bottom:6px;opacity:.75;">
@@ -503,7 +448,7 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
   </div>
 </section>
 
-<!-- ══════════ BOOKING ══════════ -->
+<!-- BOOKING -->
 <div class="booking-wrap" id="booking">
   <div class="booking-card">
     <h2 class="booking-title ar">احجز طاولتك الآن</h2>
@@ -511,7 +456,6 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
     <p class="booking-sub ar">أدخل بياناتك وسيُفتح واتساب تلقائياً برسالة حجزك الجاهزة</p>
     <p class="booking-sub de">Geben Sie Ihre Daten ein — WhatsApp öffnet sich automatisch mit Ihrer Reservierungsnachricht</p>
 
-    <!-- Name + Adults -->
     <div class="form-row">
       <div class="form-group">
         <label class="form-label ar">الاسم الكريم</label>
@@ -520,7 +464,7 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
       </div>
       <div class="form-group">
         <label class="form-label ar">البالغون وفوق ٨ سنوات <span class="opt">(٢٠€)</span></label>
-        <label class="form-label de">Erwachsene & über 8 J. <span class="opt">(20€)</span></label>
+        <label class="form-label de">Erwachsene &amp; über 8 J. <span class="opt">(20€)</span></label>
         <select class="form-input" id="f-guests" onchange="updateTotal()">
           <option value="0">0</option>
           <option value="1" selected>1</option>
@@ -533,7 +477,6 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
       </div>
     </div>
 
-    <!-- Time + Notes -->
     <div class="form-row">
       <div class="form-group">
         <label class="form-label ar">وقت الوصول</label>
@@ -554,7 +497,6 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
       </div>
     </div>
 
-    <!-- Children (optional) -->
     <div class="form-row">
       <div class="form-group">
         <label class="form-label ar">أطفال ٤–٨ سنوات <span class="opt">(اختياري · ١٠€)</span></label>
@@ -574,18 +516,16 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
       </div>
     </div>
 
-    <!-- Hint -->
     <div class="children-hint">
       <span class="children-hint-icon">💡</span>
       <div class="children-hint-text ar">
         <b>تحت ٤ سنوات</b> — مجاناً &nbsp;·&nbsp; <b>٤ إلى ٨ سنوات</b> — ١٠€ للطفل &nbsp;·&nbsp; <b>فوق ٨ سنوات والبالغون</b> — ٢٠€
       </div>
       <div class="children-hint-text de">
-        <b>Unter 4 Jahre</b> — Gratis &nbsp;·&nbsp; <b>4 bis 8 Jahre</b> — 10€ pro Kind &nbsp;·&nbsp; <b>Über 8 Jahre & Erwachsene</b> — 20€
+        <b>Unter 4 Jahre</b> — Gratis &nbsp;·&nbsp; <b>4 bis 8 Jahre</b> — 10€ pro Kind &nbsp;·&nbsp; <b>Über 8 Jahre &amp; Erwachsene</b> — 20€
       </div>
     </div>
 
-    <!-- Total -->
     <div class="booking-total">
       <div>
         <div class="total-label ar">المجموع المتوقع</div>
@@ -610,7 +550,7 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
   </div>
 </div>
 
-<!-- ══════════ FOOTER ══════════ -->
+<!-- FOOTER -->
 <footer>
   <div class="divider-ornament" style="margin-bottom:20px;"><div class="ornament-diamond"></div></div>
   <div class="footer-name">Naya Jouly</div>
@@ -619,7 +559,6 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
 </footer>
 
 <script>
-// Stars
 (function(){
   const c=document.getElementById('stars');
   for(let i=0;i<65;i++){
@@ -631,7 +570,6 @@ footer{text-align:center;padding:40px 24px 60px;border-top:1px solid rgba(212,16
   }
 })();
 
-// Language
 function setLang(l){
   document.documentElement.lang=l;
   document.documentElement.dir=l==='ar'?'rtl':'ltr';
@@ -641,12 +579,10 @@ function setLang(l){
   updateTotal();
 }
 
-// Scroll
 function scrollToBooking(){
   document.getElementById('booking').scrollIntoView({behavior:'smooth',block:'start'});
 }
 
-// Total: adults×20 + kids(4-8)×10 + kids(<4)×0
 function updateTotal(){
   const adults  = parseInt(document.getElementById('f-guests').value)   || 0;
   const kidsMid = parseInt(document.getElementById('f-kids-mid').value)  || 0;
@@ -654,7 +590,6 @@ function updateTotal(){
   document.getElementById('totalPrice').textContent = total+'€';
 }
 
-// WhatsApp + fbq
 function sendWA(){
   const lang     = document.documentElement.lang;
   const name     = document.getElementById('f-name').value.trim();
